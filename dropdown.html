@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropdown {
+	porition : relative;
+	display:inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	padding: 12px;
+	z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+</style>
+<body>
+	<h2> dropdown yang muncul ketika di-hover</h2>
+	<p>coba arahkan kursor mouse teks dibawah iniuntuk menampilkan dropdown <b> HALLO POLINDRA</b></p>
+
+	<div class="dropdown">
+		<span>ke sini!</span>
+		<div class="dropdown-content">
+			halo polindra!
+		</div>
+	</div>
+</body>
+<head>
+
+</html>
